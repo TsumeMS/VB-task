@@ -1,0 +1,28 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* color palette from <https://github.com/vuejs/theme> */
+$background-color: #FCFCFC;
+$primary-text-color: #333333;
+$secondary-text-color: #383838;
+$tertiary-text-color: #565656;
+
+
+/* base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  background: $background-color;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
